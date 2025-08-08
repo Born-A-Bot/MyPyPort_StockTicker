@@ -24,7 +24,7 @@ print(resultsList)
 #create excel workbook
 workbook = openpyxl.Workbook()
 
-#create sheet within workbook
+#create new sheet
 sheet = workbook.active
 
 #populate sheet w/stock data
