@@ -1,6 +1,7 @@
 import yfinance as yf
 import pandas as pd
 import matplotlib.pyplot as plt
+import openpyxl 
 
 #prompt user for share name
 chk_stock = input("Enter stock name: ")
@@ -18,10 +19,9 @@ print("Stock Data:", final_market_prices)
 fig, ax = plt.subplots()
 ax.plot(final_market_prices)
 ax.set_title("Five Day Stock Data")
-ax.set_ylabel('Close Price')
+ax.set_ylabel('Close Price (U.S. Dollars ($))')
 ax.set_xlabel('Date')
 plt.show()
-
 
 #option to check additional stocks
 chk_another = input("Check another stock? Y or N: ")
