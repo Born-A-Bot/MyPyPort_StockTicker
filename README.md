@@ -27,3 +27,7 @@ if chk_another == "Y":
 else:
     print("Thanks!")
 ```
+
+
+<img width="640" height="480" alt="Figure_1" src="https://github.com/user-attachments/assets/ad5f880e-f451-4d9d-b2b2-41c471c27096" />
+
